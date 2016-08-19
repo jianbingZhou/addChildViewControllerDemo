@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA01EB6B1D6707B0003FA8F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB6A1D6707B0003FA8F6 /* main.m */; };
+		AA01EB6E1D6707B0003FA8F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB6D1D6707B0003FA8F6 /* AppDelegate.m */; };
+		AA01EB711D6707B0003FA8F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB701D6707B0003FA8F6 /* ViewController.m */; };
+		AA01EB741D6707B0003FA8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA01EB721D6707B0003FA8F6 /* Main.storyboard */; };
+		AA01EB771D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB751D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodeld */; };
+		AA01EB791D6707B0003FA8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA01EB781D6707B0003FA8F6 /* Assets.xcassets */; };
+		AA01EB7C1D6707B0003FA8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA01EB7A1D6707B0003FA8F6 /* LaunchScreen.storyboard */; };
+		AA01EB871D6707B0003FA8F6 /* AddChildViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB861D6707B0003FA8F6 /* AddChildViewControllerDemoTests.m */; };
+		AA01EB921D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB911D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA01EB831D6707B0003FA8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA01EB5E1D6707B0003FA8F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA01EB651D6707B0003FA8F6;
+			remoteInfo = AddChildViewControllerDemo;
+		};
+		AA01EB8E1D6707B0003FA8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA01EB5E1D6707B0003FA8F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA01EB651D6707B0003FA8F6;
+			remoteInfo = AddChildViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA01EB661D6707B0003FA8F6 /* AddChildViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddChildViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01EB6A1D6707B0003FA8F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA01EB6C1D6707B0003FA8F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA01EB6D1D6707B0003FA8F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA01EB6F1D6707B0003FA8F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA01EB701D6707B0003FA8F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA01EB731D6707B0003FA8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA01EB761D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddChildViewControllerDemo.xcdatamodel; sourceTree = "<group>"; };
+		AA01EB781D6707B0003FA8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA01EB7B1D6707B0003FA8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA01EB7D1D6707B0003FA8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA01EB821D6707B0003FA8F6 /* AddChildViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddChildViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01EB861D6707B0003FA8F6 /* AddChildViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddChildViewControllerDemoTests.m; sourceTree = "<group>"; };
+		AA01EB881D6707B0003FA8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA01EB8D1D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddChildViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01EB911D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddChildViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		AA01EB931D6707B0003FA8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA01EB631D6707B0003FA8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01EB7F1D6707B0003FA8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01EB8A1D6707B0003FA8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA01EB5D1D6707B0003FA8F6 = {
+			isa = PBXGroup;
+			children = (
+				AA01EB681D6707B0003FA8F6 /* AddChildViewControllerDemo */,
+				AA01EB851D6707B0003FA8F6 /* AddChildViewControllerDemoTests */,
+				AA01EB901D6707B0003FA8F6 /* AddChildViewControllerDemoUITests */,
+				AA01EB671D6707B0003FA8F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA01EB671D6707B0003FA8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA01EB661D6707B0003FA8F6 /* AddChildViewControllerDemo.app */,
+				AA01EB821D6707B0003FA8F6 /* AddChildViewControllerDemoTests.xctest */,
+				AA01EB8D1D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA01EB681D6707B0003FA8F6 /* AddChildViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA01EB6C1D6707B0003FA8F6 /* AppDelegate.h */,
+				AA01EB6D1D6707B0003FA8F6 /* AppDelegate.m */,
+				AA01EB6F1D6707B0003FA8F6 /* ViewController.h */,
+				AA01EB701D6707B0003FA8F6 /* ViewController.m */,
+				AA01EB721D6707B0003FA8F6 /* Main.storyboard */,
+				AA01EB781D6707B0003FA8F6 /* Assets.xcassets */,
+				AA01EB7A1D6707B0003FA8F6 /* LaunchScreen.storyboard */,
+				AA01EB7D1D6707B0003FA8F6 /* Info.plist */,
+				AA01EB751D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodeld */,
+				AA01EB691D6707B0003FA8F6 /* Supporting Files */,
+			);
+			path = AddChildViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		AA01EB691D6707B0003FA8F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA01EB6A1D6707B0003FA8F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA01EB851D6707B0003FA8F6 /* AddChildViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA01EB861D6707B0003FA8F6 /* AddChildViewControllerDemoTests.m */,
+				AA01EB881D6707B0003FA8F6 /* Info.plist */,
+			);
+			path = AddChildViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		AA01EB901D6707B0003FA8F6 /* AddChildViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA01EB911D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.m */,
+				AA01EB931D6707B0003FA8F6 /* Info.plist */,
+			);
+			path = AddChildViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA01EB651D6707B0003FA8F6 /* AddChildViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA01EB961D6707B0003FA8F6 /* Build configuration list for PBXNativeTarget "AddChildViewControllerDemo" */;
+			buildPhases = (
+				AA01EB621D6707B0003FA8F6 /* Sources */,
+				AA01EB631D6707B0003FA8F6 /* Frameworks */,
+				AA01EB641D6707B0003FA8F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddChildViewControllerDemo;
+			productName = AddChildViewControllerDemo;
+			productReference = AA01EB661D6707B0003FA8F6 /* AddChildViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA01EB811D6707B0003FA8F6 /* AddChildViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA01EB991D6707B0003FA8F6 /* Build configuration list for PBXNativeTarget "AddChildViewControllerDemoTests" */;
+			buildPhases = (
+				AA01EB7E1D6707B0003FA8F6 /* Sources */,
+				AA01EB7F1D6707B0003FA8F6 /* Frameworks */,
+				AA01EB801D6707B0003FA8F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA01EB841D6707B0003FA8F6 /* PBXTargetDependency */,
+			);
+			name = AddChildViewControllerDemoTests;
+			productName = AddChildViewControllerDemoTests;
+			productReference = AA01EB821D6707B0003FA8F6 /* AddChildViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA01EB8C1D6707B0003FA8F6 /* AddChildViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA01EB9C1D6707B0003FA8F6 /* Build configuration list for PBXNativeTarget "AddChildViewControllerDemoUITests" */;
+			buildPhases = (
+				AA01EB891D6707B0003FA8F6 /* Sources */,
+				AA01EB8A1D6707B0003FA8F6 /* Frameworks */,
+				AA01EB8B1D6707B0003FA8F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA01EB8F1D6707B0003FA8F6 /* PBXTargetDependency */,
+			);
+			name = AddChildViewControllerDemoUITests;
+			productName = AddChildViewControllerDemoUITests;
+			productReference = AA01EB8D1D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA01EB5E1D6707B0003FA8F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JianbingZhou;
+				TargetAttributes = {
+					AA01EB651D6707B0003FA8F6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AA01EB811D6707B0003FA8F6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AA01EB651D6707B0003FA8F6;
+					};
+					AA01EB8C1D6707B0003FA8F6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AA01EB651D6707B0003FA8F6;
+					};
+				};
+			};
+			buildConfigurationList = AA01EB611D6707B0003FA8F6 /* Build configuration list for PBXProject "AddChildViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA01EB5D1D6707B0003FA8F6;
+			productRefGroup = AA01EB671D6707B0003FA8F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA01EB651D6707B0003FA8F6 /* AddChildViewControllerDemo */,
+				AA01EB811D6707B0003FA8F6 /* AddChildViewControllerDemoTests */,
+				AA01EB8C1D6707B0003FA8F6 /* AddChildViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA01EB641D6707B0003FA8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01EB7C1D6707B0003FA8F6 /* LaunchScreen.storyboard in Resources */,
+				AA01EB791D6707B0003FA8F6 /* Assets.xcassets in Resources */,
+				AA01EB741D6707B0003FA8F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01EB801D6707B0003FA8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01EB8B1D6707B0003FA8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA01EB621D6707B0003FA8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01EB771D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodeld in Sources */,
+				AA01EB711D6707B0003FA8F6 /* ViewController.m in Sources */,
+				AA01EB6E1D6707B0003FA8F6 /* AppDelegate.m in Sources */,
+				AA01EB6B1D6707B0003FA8F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01EB7E1D6707B0003FA8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01EB871D6707B0003FA8F6 /* AddChildViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01EB891D6707B0003FA8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01EB921D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA01EB841D6707B0003FA8F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA01EB651D6707B0003FA8F6 /* AddChildViewControllerDemo */;
+			targetProxy = AA01EB831D6707B0003FA8F6 /* PBXContainerItemProxy */;
+		};
+		AA01EB8F1D6707B0003FA8F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA01EB651D6707B0003FA8F6 /* AddChildViewControllerDemo */;
+			targetProxy = AA01EB8E1D6707B0003FA8F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA01EB721D6707B0003FA8F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA01EB731D6707B0003FA8F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA01EB7A1D6707B0003FA8F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA01EB7B1D6707B0003FA8F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA01EB941D6707B0003FA8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA01EB951D6707B0003FA8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA01EB971D6707B0003FA8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddChildViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianbingZhou.AddChildViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA01EB981D6707B0003FA8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddChildViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianbingZhou.AddChildViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA01EB9A1D6707B0003FA8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddChildViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianbingZhou.AddChildViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddChildViewControllerDemo.app/AddChildViewControllerDemo";
+			};
+			name = Debug;
+		};
+		AA01EB9B1D6707B0003FA8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddChildViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianbingZhou.AddChildViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddChildViewControllerDemo.app/AddChildViewControllerDemo";
+			};
+			name = Release;
+		};
+		AA01EB9D1D6707B0003FA8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddChildViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianbingZhou.AddChildViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddChildViewControllerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA01EB9E1D6707B0003FA8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddChildViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianbingZhou.AddChildViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddChildViewControllerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA01EB611D6707B0003FA8F6 /* Build configuration list for PBXProject "AddChildViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01EB941D6707B0003FA8F6 /* Debug */,
+				AA01EB951D6707B0003FA8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA01EB961D6707B0003FA8F6 /* Build configuration list for PBXNativeTarget "AddChildViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01EB971D6707B0003FA8F6 /* Debug */,
+				AA01EB981D6707B0003FA8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA01EB991D6707B0003FA8F6 /* Build configuration list for PBXNativeTarget "AddChildViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01EB9A1D6707B0003FA8F6 /* Debug */,
+				AA01EB9B1D6707B0003FA8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA01EB9C1D6707B0003FA8F6 /* Build configuration list for PBXNativeTarget "AddChildViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01EB9D1D6707B0003FA8F6 /* Debug */,
+				AA01EB9E1D6707B0003FA8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA01EB751D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA01EB761D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodel */,
+			);
+			currentVersion = AA01EB761D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodel */;
+			path = AddChildViewControllerDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA01EB5E1D6707B0003FA8F6 /* Project object */;
+}
