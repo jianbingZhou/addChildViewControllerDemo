@@ -16,6 +16,9 @@
 		AA01EB7C1D6707B0003FA8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA01EB7A1D6707B0003FA8F6 /* LaunchScreen.storyboard */; };
 		AA01EB871D6707B0003FA8F6 /* AddChildViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB861D6707B0003FA8F6 /* AddChildViewControllerDemoTests.m */; };
 		AA01EB921D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB911D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.m */; };
+		AA8BE71F1D8791B700EB11E4 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8BE71E1D8791B700EB11E4 /* FirstTableViewController.m */; };
+		AA8BE7221D8791C500EB11E4 /* TwoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8BE7211D8791C500EB11E4 /* TwoTableViewController.m */; };
+		AA8BE7251D8791D500EB11E4 /* ThreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8BE7241D8791D500EB11E4 /* ThreeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		AA01EB8D1D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddChildViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA01EB911D6707B0003FA8F6 /* AddChildViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddChildViewControllerDemoUITests.m; sourceTree = "<group>"; };
 		AA01EB931D6707B0003FA8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8BE71D1D8791B700EB11E4 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		AA8BE71E1D8791B700EB11E4 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		AA8BE7201D8791C500EB11E4 /* TwoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTableViewController.h; sourceTree = "<group>"; };
+		AA8BE7211D8791C500EB11E4 /* TwoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewController.m; sourceTree = "<group>"; };
+		AA8BE7231D8791D500EB11E4 /* ThreeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeTableViewController.h; sourceTree = "<group>"; };
+		AA8BE7241D8791D500EB11E4 /* ThreeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,12 @@
 				AA01EB6D1D6707B0003FA8F6 /* AppDelegate.m */,
 				AA01EB6F1D6707B0003FA8F6 /* ViewController.h */,
 				AA01EB701D6707B0003FA8F6 /* ViewController.m */,
+				AA8BE71D1D8791B700EB11E4 /* FirstTableViewController.h */,
+				AA8BE71E1D8791B700EB11E4 /* FirstTableViewController.m */,
+				AA8BE7201D8791C500EB11E4 /* TwoTableViewController.h */,
+				AA8BE7211D8791C500EB11E4 /* TwoTableViewController.m */,
+				AA8BE7231D8791D500EB11E4 /* ThreeTableViewController.h */,
+				AA8BE7241D8791D500EB11E4 /* ThreeTableViewController.m */,
 				AA01EB721D6707B0003FA8F6 /* Main.storyboard */,
 				AA01EB781D6707B0003FA8F6 /* Assets.xcassets */,
 				AA01EB7A1D6707B0003FA8F6 /* LaunchScreen.storyboard */,
@@ -275,6 +290,9 @@
 			files = (
 				AA01EB771D6707B0003FA8F6 /* AddChildViewControllerDemo.xcdatamodeld in Sources */,
 				AA01EB711D6707B0003FA8F6 /* ViewController.m in Sources */,
+				AA8BE7221D8791C500EB11E4 /* TwoTableViewController.m in Sources */,
+				AA8BE71F1D8791B700EB11E4 /* FirstTableViewController.m in Sources */,
+				AA8BE7251D8791D500EB11E4 /* ThreeTableViewController.m in Sources */,
 				AA01EB6E1D6707B0003FA8F6 /* AppDelegate.m in Sources */,
 				AA01EB6B1D6707B0003FA8F6 /* main.m in Sources */,
 			);
@@ -500,6 +518,7 @@
 				AA01EB981D6707B0003FA8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA01EB991D6707B0003FA8F6 /* Build configuration list for PBXNativeTarget "AddChildViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +527,7 @@
 				AA01EB9B1D6707B0003FA8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA01EB9C1D6707B0003FA8F6 /* Build configuration list for PBXNativeTarget "AddChildViewControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +536,7 @@
 				AA01EB9E1D6707B0003FA8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
